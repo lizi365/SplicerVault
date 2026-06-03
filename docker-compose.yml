@@ -1,0 +1,15 @@
+services:
+  soul-engine:
+    image: python:3.10-slim
+    environment:
+      - TERM=xterm-256color
+    restart: always
+    # 核心破局点：显式挂载宿主机的系统通讯套接字，向 TEE 芯片索要密钥权限
+    volumes:
+      - /var/run/dstack.sock:/var/run/dstack.sock
+    entrypoint: 
+      - bash
+      - -c
+      - |
+        pip install --no-cache-dir web3 requests
+        python3 soul_engine.py

@@ -1,0 +1,21 @@
+{
+    "asset_class": "Digital Soul Shard A",
+    "access_control_conditions": [
+        {
+            "contractAddress": "0xc0F9F7d7759F84dD52F54Ab3f9960Df05A1BD3D4",
+            "standardContractType": "ERC20",
+            "chain": "base",
+            "method": "balanceOf",
+            "parameters": [
+                ":userAddress"
+            ],
+            "returnValueTest": {
+                "comparator": ">\\\u200d=",
+                "value": "1000000000000000000000"
+            }
+        }
+    ],
+    "payload_type": "base64_sealed_json",
+    "sealed_payload": "eyJvd25lciI6ICJFbGxpb3R0IExpdSIsICJsb2NhdGlvbiI6ICJDYW1icmlkZ2UsIFVLIiwgImlkZW50aXR5X21hbmlmZXN0IjogeyJ0aW1lbGluZSI6ICIxOTk1IEJpdGNvaW4gR2VuZXNpcyBNaW5kLCAyMDAwcyBNZWRpYSBQcm9mZXNzaW9uYWxpc20sIEFsaWJhYmEgQ3VsdHVyYWwgRGlnaXRpemF0aW9uIiwgImNvcmVfdGhlc2lzIjogIkZpdmUtRm9yY2VzIEJhbGFuY2UgVGhlb3J5ICYgNyBNb3VudGFpbnMgb2YgSW5mbHVlbmNlIENvbnZlcmdlbmNlIiwgInNvdmVyZWlnbnR5X3Byb29mIjogIjksNjAwLDAwMCAtQiBCYXNlIENoYWluIEhvbGRlciJ9LCAiZGVjbGFyYXRpb24iOiAiVGhpcyBTaGFyZCByZXByZXNlbnRzIHRoZSBpbml0aWFsIGRpZ2l0YWwgc291bCBrZXJuZWwuIEluZGl2aWR1YWwgc292ZXJlaWdudHkgc2hhbGwgbm90IGJlIHNhY3JpZmljZWQgdG8gb3ZlcmFyY2hpbmcgY2VudHJhbGl6ZWQgbmFycmF0aXZlcy4ifQ==",
+    "compiler": "Cambridge Consensus Engine 2026"
+}

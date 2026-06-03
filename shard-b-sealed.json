@@ -1,0 +1,20 @@
+{
+    "asset_class": "Digital Soul Shard B",
+    "access_control_conditions": [
+        {
+            "contractAddress": "0xc0F9F7d7759F84dD52F54Ab3f9960Df05A1BD3D4",
+            "standardContractType": "ERC20",
+            "chain": "base",
+            "method": "balanceOf",
+            "parameters": [
+                ":userAddress"
+            ],
+            "returnValueTest": {
+                "comparator": ">\\\u200d=",
+                "value": "1000000000000000000000"
+            }
+        }
+    ],
+    "payload_type": "base64_sealed_json",
+    "sealed_payload": "eyJvd25lciI6ICJFbGxpb3R0IExpdSIsICJhc3NldF9jbGFzcyI6ICJEaWdpdGFsIFNvdWwgU2hhcmQgQiIsICJjb3Jwb3JhdGVfcGVuZXRyYXRpb24iOiB7ImFsaWJhYmFfZXJhIjogIkFudCBGaW5hbmNpYWwgYXV0by1maW5hbmNpbmcgZnJhbWV3b3JrLCBkaWdpdGFsIHRyYW5zZm9ybWF0aW9uIG9mIHByZS1tb3ZpZSBhZHZlcnRpc2luZyIsICJvcmdhbml6YXRpb25hbF9mcmljdGlvbiI6ICJUaGUgaW50ZXJuYWwgZXhoYXVzdGlvbiBvZiB0aGUgR3JlYXQgRml2ZS1LaW5ncyBXYXIgd2l0aGluIEFsaWJhYmEgRGlnaXRhbCBNZWRpYSBhbmQgRW50ZXJ0YWlubWVudCBHcm91cCJ9LCAiYXdha2VuaW5nX3BhcmFkaWdtIjogeyJzb3ZlcmVpZ250eV9jaG9pY2UiOiAiVm9sdW50YXJpbHkgZm9yZmVpdGluZyBtaWxsaW9uLWRvbGxhciBzdG9jayBvcHRpb25zIGZvciBpbmRpdmlkdWFsIGF1dG9ub215IiwgImFyYml0cmFnZV9kaXNpbGx1c2lvbm1lbnQiOiAiSG9uZyBLb25nIGZhbWlseSBvZmZpY2Ugd2VhbHRoIG1hbmFnZW1lbnQgYXJiaXRyYWdlIGRpc2VuY2hhbnRtZW50In0sICJjb21waWxlciI6ICJDYW1icmlkZ2UgQ29uc2Vuc3VzIEVuZ2luZSAyMDI2In0="
+}
